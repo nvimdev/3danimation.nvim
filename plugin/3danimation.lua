@@ -8,6 +8,6 @@ vim.api.nvim_create_user_command('Cube', function()
   require('3danimation.cube')
 end, {})
 
-vim.api.nvim_create_user_command('Dounts', function()
-  require('3danimation.dounts')
+vim.api.nvim_create_user_command('Donut', function()
+  require('3danimation.donut')
 end, {})
